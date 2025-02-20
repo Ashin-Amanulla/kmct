@@ -1,0 +1,13 @@
+<h1 class="display-1 text-center">Products</h1>
+
+<div class="container">
+  <div class="row">
+    @for(item of products; track item.id){
+
+    <div class="col">
+      <app-cards [item]="item"></app-cards>
+    </div>
+
+    }
+  </div>
+</div>

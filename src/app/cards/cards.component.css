@@ -1,0 +1,14 @@
+img{
+    height: 12rem;
+}
+
+.card-body{
+    height: 200px;
+}
+.card-title{
+    height: 100px;
+}
+
+.card{
+    height: 400px
+}
