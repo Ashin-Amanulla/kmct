@@ -12,6 +12,10 @@ export class ApiService {
     return this.http.get('https://fakestoreapi.com/products')
   }
 
+  getProductById(id:string){
+    return this.http.get('https://fakestoreapi.com/products/'+id)
+  }
+
 
 
 
